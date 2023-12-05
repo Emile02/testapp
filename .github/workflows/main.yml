@@ -1,7 +1,5 @@
 on:
   push:
-    paths:
-      - 'dist/routing-app/**'
 
 name: 🚀 Deploy website on push
 jobs:

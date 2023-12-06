@@ -1,7 +1,7 @@
 on:
   push:
     paths:
-      - 'routing-app/dist/routing-app/**'
+      - 'routing-app/dist/**'
 
 name: 🚀 Deploy website on push
 jobs:
@@ -17,5 +17,5 @@ jobs:
       with:
         server: 195.35.49.175
         username: u219389025
-        password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: "routing-app/dist/routing-app"
+        password: hFBN~wf7+8})t5S
+        local-dir: "routing-app/dist/"
